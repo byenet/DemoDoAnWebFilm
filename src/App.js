@@ -1,6 +1,6 @@
 import React from "react";
 import "./App.scss";
-import { BrowserRouter, Route, Switch } from "react-router-dom";
+import { HashRouter,BrowserRouter, Route, Switch } from "react-router-dom";
 import HomeTemplate from "./Templates/home-template";
 import AdminTemplate from "./Templates/admin-template";
 import { routesHome, routesAdmin } from "./Route";
@@ -39,14 +39,14 @@ const showMenuAdmin = routes => {
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Switch>
         {showMenuHome(routesHome)}
         {showMenuAdmin(routesAdmin)}
         <Route path="/admin" component={LoginAdmin} />
         <Route path="" component={PageNotFound} />
       </Switch>
-    </BrowserRouter>
+    </HashRouter>
   );
 }
 
