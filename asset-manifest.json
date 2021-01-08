@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/DemoDoAnWebFilm/static/css/main.c49dd507.chunk.css",
-    "main.js": "/DemoDoAnWebFilm/static/js/main.66d8082b.chunk.js",
-    "main.js.map": "/DemoDoAnWebFilm/static/js/main.66d8082b.chunk.js.map",
+    "main.js": "/DemoDoAnWebFilm/static/js/main.5475811a.chunk.js",
+    "main.js.map": "/DemoDoAnWebFilm/static/js/main.5475811a.chunk.js.map",
     "runtime-main.js": "/DemoDoAnWebFilm/static/js/runtime-main.5422e9ec.js",
     "runtime-main.js.map": "/DemoDoAnWebFilm/static/js/runtime-main.5422e9ec.js.map",
     "static/css/2.c917683a.chunk.css": "/DemoDoAnWebFilm/static/css/2.c917683a.chunk.css",
-    "static/js/2.30fd1d0f.chunk.js": "/DemoDoAnWebFilm/static/js/2.30fd1d0f.chunk.js",
-    "static/js/2.30fd1d0f.chunk.js.map": "/DemoDoAnWebFilm/static/js/2.30fd1d0f.chunk.js.map",
+    "static/js/2.61ed1dbf.chunk.js": "/DemoDoAnWebFilm/static/js/2.61ed1dbf.chunk.js",
+    "static/js/2.61ed1dbf.chunk.js.map": "/DemoDoAnWebFilm/static/js/2.61ed1dbf.chunk.js.map",
     "index.html": "/DemoDoAnWebFilm/index.html",
-    "precache-manifest.79e1ee269d6a41f3cc832077a7e36fd5.js": "/DemoDoAnWebFilm/precache-manifest.79e1ee269d6a41f3cc832077a7e36fd5.js",
+    "precache-manifest.7bf1b06083f67f2948c445d51c2fd2fd.js": "/DemoDoAnWebFilm/precache-manifest.7bf1b06083f67f2948c445d51c2fd2fd.js",
     "service-worker.js": "/DemoDoAnWebFilm/service-worker.js",
     "static/css/2.c917683a.chunk.css.map": "/DemoDoAnWebFilm/static/css/2.c917683a.chunk.css.map",
     "static/css/main.c49dd507.chunk.css.map": "/DemoDoAnWebFilm/static/css/main.c49dd507.chunk.css.map",
-    "static/js/2.30fd1d0f.chunk.js.LICENSE.txt": "/DemoDoAnWebFilm/static/js/2.30fd1d0f.chunk.js.LICENSE.txt",
+    "static/js/2.61ed1dbf.chunk.js.LICENSE.txt": "/DemoDoAnWebFilm/static/js/2.61ed1dbf.chunk.js.LICENSE.txt",
     "static/media/App.scss": "/DemoDoAnWebFilm/static/media/backfroundTroiSao.edc704b7.jpg",
     "static/media/carousel1.jpg": "/DemoDoAnWebFilm/static/media/carousel1.23332035.jpg",
     "static/media/carousel2.jpg": "/DemoDoAnWebFilm/static/media/carousel2.67c447ca.jpg",
@@ -29,8 +29,8 @@
   "entrypoints": [
     "static/js/runtime-main.5422e9ec.js",
     "static/css/2.c917683a.chunk.css",
-    "static/js/2.30fd1d0f.chunk.js",
+    "static/js/2.61ed1dbf.chunk.js",
     "static/css/main.c49dd507.chunk.css",
-    "static/js/main.66d8082b.chunk.js"
+    "static/js/main.5475811a.chunk.js"
   ]
 }
