@@ -5,7 +5,7 @@ export const actGetDanhSachPhongVe = maLichChieu => {
     return dispatch => {
         return Axios({
           method: "GET",
-          url: `http://movie0706.cybersoft.edu.vn/api/QuanLyDatVe/LayDanhSachPhongVe?MaLichChieu=${maLichChieu}`,
+          url: `https://movie0706.cybersoft.edu.vn/api/QuanLyDatVe/LayDanhSachPhongVe?MaLichChieu=${maLichChieu}`,
         }).then(result =>{
             dispatch({
               type: ActionType.GET_DANH_SACH_PHONG_VE,

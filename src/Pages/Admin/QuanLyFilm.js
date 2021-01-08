@@ -153,7 +153,7 @@ class QuanLyFilm extends Component {
                 // console.log(newData);
                 return Axios({
                   method: "POST",
-                  url: `http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/ThemPhim`,
+                  url: `https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/ThemPhim`,
                   data: movie,
                   headers: { Authorization: "Bearer " + userAD.accessToken },
                 }).then(result => {
@@ -196,7 +196,7 @@ class QuanLyFilm extends Component {
                 return Axios({
                   method: "POST",
                   url:
-                    "http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/CapNhatPhim",
+                    "https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/CapNhatPhim",
                   data: movie,
                   headers: { Authorization: "Bearer " + userAD.accessToken },
                 }).then(result => {
@@ -224,7 +224,7 @@ class QuanLyFilm extends Component {
                 resolve();
                 return Axios({
                   method: "DELETE",
-                  url: `http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/XoaPhim?MaPhim=${oldData.maPhim}`,
+                  url: `https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/XoaPhim?MaPhim=${oldData.maPhim}`,
                   headers: { Authorization: "Bearer " + userAD.accessToken },
                 }).then((result) => {
                     Swal.fire({

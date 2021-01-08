@@ -84,7 +84,7 @@ class QuanLyUser extends Component {
                 return Axios({
                   method: "POST",
                   url:
-                    "http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/ThemNguoiDung",
+                    "https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/ThemNguoiDung",
                   data: user,
                   headers: { Authorization: "Bearer " + userAD.accessToken },
                 }).then(result => {
@@ -124,7 +124,7 @@ class QuanLyUser extends Component {
                 return Axios({
                   method: "PUT",
                   url:
-                    "http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/CapNhatThongTinNguoiDung",
+                    "https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/CapNhatThongTinNguoiDung",
                   data: user,
                   headers: { Authorization: "Bearer " + userAD.accessToken },
                 }).then(result => {
@@ -152,7 +152,7 @@ class QuanLyUser extends Component {
                 resolve();
                 return Axios({
                   method: "DELETE",
-                  url: `http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/XoaNguoiDung?TaiKhoan=${oldData.taiKhoan}`,
+                  url: `https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/XoaNguoiDung?TaiKhoan=${oldData.taiKhoan}`,
                   headers: { Authorization: "Bearer " + userAD.accessToken },
                 }).then((result) => {
                     Swal.fire({

@@ -5,6 +5,7 @@ import Login from "../../Pages/Home/User/Login";
 import Register from "../../Pages/Home/User/Register"
 
 
+
 // import redux
 import { connect } from "react-redux";
 
@@ -150,6 +151,7 @@ class Navbar extends Component {
   };
 
   render() {
+
     return (
       <header className="header">
         <nav className=" mynav1 navbar navbar-expand-lg ">
@@ -265,3 +267,6 @@ const mapDispatchToProps = dispatch => {
 }
 
 export default connect(mapStateToProps, mapDispatchToProps)(withRouter(Navbar))
+
+
+

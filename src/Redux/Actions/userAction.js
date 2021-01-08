@@ -2,11 +2,12 @@ import axios from "axios";
 import * as ActionType from "./../Constants/constant";
 import Swal from "sweetalert2";
 
+
 export const actLoginNguoiDung = (user) => {
   return (dispatch) => {
     axios({
       method: "POST",
-      url: "http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/DangNhap",
+      url: "https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/DangNhap",
       data: user,
     }).then((result) => {
         dispatch({
@@ -45,7 +46,7 @@ export const actSetUserLogin = (user) => {
 export const actLoginAdmin = (user, history) => {
   axios({
     method: "POST",
-    url: "http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/DangNhap",
+    url: "https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/DangNhap",
     data: user,
   })
   .then(result => {
@@ -81,7 +82,7 @@ export const actGetListUser = () => {
     axios({
       method: "GET",
       url:
-        "http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/LayDanhSachNguoiDung?MaNhom=GP05",
+        "https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/LayDanhSachNguoiDung?MaNhom=GP05",
     }).then(result => {
       dispatch({
         type: ActionType.GET_LIST_USER,
@@ -97,7 +98,7 @@ export const actGetInfoUser = taiKhoan => {
   return dispatch => {
     axios({
       method: "POST",
-      url:"http://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/ThongTinTaiKhoan",
+      url:"https://movie0706.cybersoft.edu.vn/api/QuanLyNguoiDung/ThongTinTaiKhoan",
       data: taiKhoan,
     })
     .then(result => {

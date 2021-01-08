@@ -47,7 +47,7 @@ class BookingInfo extends Component {
         };
         return Axios({
           method: "POST",
-          url: `http://movie0706.cybersoft.edu.vn/api/QuanLyDatVe/DatVe`,
+          url: `https://movie0706.cybersoft.edu.vn/api/QuanLyDatVe/DatVe`,
           data: danhSachGheDat,
           headers: { Authorization: "Bearer " + user.accessToken },
         }).then(result => {

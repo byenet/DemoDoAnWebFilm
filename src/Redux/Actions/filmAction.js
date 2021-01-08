@@ -6,7 +6,7 @@ export const actGetListMovieAPI = () => {
     Axios({
       method: "GET",
       url:
-        "http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP05"
+        "https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayDanhSachPhim?maNhom=GP08"
     })
       .then(result => {
         dispatch({
@@ -25,7 +25,7 @@ export const actGetDetailMovieAPI = id => {
   return dispatch => {
     Axios({
       method: "GET",
-      url: `http://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayThongTinPhim?MaPhim=${id}`
+      url: `https://movie0706.cybersoft.edu.vn/api/QuanLyPhim/LayThongTinPhim?MaPhim=${id}`
     }).then(result => {
       dispatch({
         type: ActionType.GET_DETAIL_MOVIE,
